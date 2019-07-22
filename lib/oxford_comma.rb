@@ -13,7 +13,7 @@ def oxford_comma(array)
     #need a method to remove part of a string, namely, the last comma in the string#
     newstring = string.gsub(/and,/, "and")
  end
-puts newstring
+p newstring
 end
 
 oxford_comma(array)
