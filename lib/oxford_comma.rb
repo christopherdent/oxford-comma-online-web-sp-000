@@ -11,7 +11,7 @@ def oxford_comma(array)
     array.insert(-2, 'and')
     string = array.join(", ")
     #need a method to remove part of a string, namely, the last comma in the string#
-    string.gsub(/:|\./, "")
+    string.gsub(/and,/, "and")
  end
 
 end
